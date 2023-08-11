@@ -39,7 +39,15 @@ pip install -r requirements.txt
 The dataset will contain some features regarding customer's history of bank for which we are creating this churn model like credit score, geography, gender, age, tenure, balance, no. of product, having credit card or not, is active member? , estimated salary, exited . it also some extra features like row no. and customer id which will be removed during modelling. 
 
 ## Modeling
+### Using Artificial Neural Networks (ANN) for Churn Prediction
 
+What is an Artificial Neural Network (ANN)?
+
+An Artificial Neural Network is a computational model inspired by the human brain's neural structure. It consists of layers of interconnected nodes (neurons) that process and transform input data. ANNs are particularly well-suited for tasks involving complex patterns and relationships.
+
+ANN Architecture for Churn Prediction
+
+For churn prediction, you can design a feedforward neural network with several layers, including an input layer, one or more hidden layers, and an output layer. The number of neurons in the input layer corresponds to the number of features in your dataset, while the output layer typically has a single neuron for binary classification (churn or no churn).
 
 ## Evaluation
 Describe the evaluation metrics used to assess the performance of your churn prediction model. Provide insights into the model's strengths and areas for improvement.
